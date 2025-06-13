@@ -1,7 +1,78 @@
-body {
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centralizar tudo na tela */
+html, body {
+  height: 100%;
+  background-color: white;
+}
+
+.container {
+  height: 100vh;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center;     /* Centraliza verticalmente */
-  height: 100vh;           /* 100% da altura da tela */
-  margin: 0;               /* Remove margens padrão */
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+/* Moldura do celular */
+.phone-frame {
+  width: 440px;
+  height: 956px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tela interna */
+.tela-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo centralizado */
+.logo-centralizada {
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+}
+/* Tela de cadastro*/
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.logo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #27b5e1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #1a91b7;
 }
