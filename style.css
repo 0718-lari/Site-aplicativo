@@ -16,7 +16,6 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
 }
 /* Moldura do celular */
 .phone-frame {
@@ -53,26 +52,21 @@ html, body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 20px;
+  padding: 0 20px;
 }
 .logo {
-  width: 150px;
-  margin-bottom: 30px;
+  width: 200px;
+  margin-bottom: 40px;
 }
 
-.button {
+.botao-img {
   width: 100%;
-  padding: 12px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 8px;
-  background-color: #27b5e1;
-  color: white;
-  font-weight: bold;
+  max-width: 280px;
+  margin-bottom: 35px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.2s ease;
 }
 
-.button:hover {
-  background-color: #1a91b7;
+.botao-img:hover {
+  transform: scale(1.03);
 }
