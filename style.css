@@ -9,6 +9,7 @@
 html, body {
   height: 100%;
   background-color: white;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -69,4 +70,63 @@ html, body {
 
 .botao-img:hover {
   transform: scale(1.03);
+}
+
+.titulo-login {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.label {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  display: block;
+  text-align: left;
+  width: 100%;
+  max-width: 280px;
+}
+
+.campo-img {
+  width: 100%;
+  max-width: 280px;
+  margin-bottom: 20px;
+}
+
+.aviso {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.link-esqueci {
+  color: #b13c3c;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.label, .link-esqueci{
+  font-weight: 400px;
+}
+
+.botao-continuar{
+  width: 100%;
+    max-width: 280px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 0 0;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.botao_continuar {
+  width: 100%;
+  max-width: 100px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.botao_continuar:hover {
+  transform: scale(1.05);
 }
