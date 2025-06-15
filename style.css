@@ -72,6 +72,7 @@ html, body {
   transform: scale(1.03);
 }
 
+/* Tela login*/
 .titulo-login {
   font-size: 50px;
   margin-bottom: 20px;
@@ -94,13 +95,13 @@ html, body {
 }
 
 .aviso {
-  color: red;
+  color: #B93A3A;
   font-size: 14px;
   margin: 5px 0;
 }
 
 .link-esqueci {
-  color: #b13c3c;
+  color: #B93A3A;
   font-size: 14px;
   text-decoration: none;
   cursor: pointer;
@@ -111,7 +112,7 @@ html, body {
 }
 
 .botao-continuar{
-  width: 100%;
+    width: 100%;
     max-width: 280px;
     display: flex;
     justify-content: flex-end;
@@ -128,5 +129,53 @@ html, body {
 }
 
 .botao_continuar:hover {
+  transform: scale(1.05);
+}
+
+/* Tela esqueci minha senha */
+
+.titulo-esqueci{
+  font-size: 37px;
+  margin-top: 1px;
+  margin-bottom: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.label-esqueci{
+  font-size: 16px;
+  margin-bottom: 8px;
+  align-items: flex-start;
+}
+.campo-img-esqueci{
+  width: 300px;
+  margin-bottom: 20px;
+  display: block;
+}
+.alert{
+  font-size: 16px;
+  color: #B93A3A;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.botao-continuar-esqueci{
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 0 0;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.botao_continuar_esqueci {
+  width: 100%;
+  max-width: 100px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.botao_continuar_esqueci:hover {
   transform: scale(1.05);
 }
